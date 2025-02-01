@@ -15,24 +15,12 @@ if [ "$(cat /etc/os-release | grep ^ID= | cut -d= -f2)" = "alpine" ] && [ "$(id 
         automake \
         autoconf \
         libtool \
-        nasm
-    apk add --no-cache \
+        nasm \
         gstreamer \
         gst-plugins-base \
         gst-plugins-good \
         gst-plugins-ugly \
         gst-plugins-bad \
         gst-libav \
-        gst-alsa \
-        gst-gl \
-        gst-gtk3 \
-        gst-qt5 \
-        gst-pulseaudio \
-        gst-tools \
-        gst-dev \
-        gst-plugins-base-dev \
-        gst-plugins-good-dev \
-        gst-plugins-ugly-dev \
-        gst-plugins-bad-dev \
-    apk add --no-cache ffmpeg
+        ffmpeg
 fi
