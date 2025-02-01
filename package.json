@@ -1,0 +1,7 @@
+{
+  "name": "alpine-streaming-pkgs",
+  "version": "1.0.0",  
+  "scripts": {
+    "preinstall": "sh ./preinstall.sh"
+  }
+}
